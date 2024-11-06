@@ -2,7 +2,7 @@
 
 Implementation of the Paper "[Chemical transformer Compression for accelerating both training and inference of molecular modeling](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" by Yi Yu and Karl Börjesson. We assumed that the **de**ep **li**ght **c**hemic**a**l **t**ransform**e**r (**DeLiCaTe**)  will accelerate both training and inference of chemical transformer for molecular modeling. 
 
-<img src="example/TOC.tiff" width="100%" height="100%">
+<img src="example/TOC.tif" width="100%" height="100%">
 
 ## Installing
 The compression methods in this package is based heavily on the MolBERT from BenevolentAI. The link of MolBERT is shown below:
