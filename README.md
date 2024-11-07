@@ -1,6 +1,6 @@
 # ChatMolData
 
-Implementation of the Paper "[Chemical transformer Compression for accelerating both training and inference of molecular modeling](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" by Yi Yu and Karl Börjesson. We assumed that the **de**ep **li**ght **c**hemic**a**l **t**ransform**e**r (**DeLiCaTe**)  will accelerate both training and inference of chemical transformer for molecular modeling. 
+Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Molecular Data Processing](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" by Yi Yu and xx. We assumed that the ChatMolData  will bridge the gap between chemical experimenters and algorithm developers. 
 
 <img src="example/TOC.png" width="100%" height="100%">
 
