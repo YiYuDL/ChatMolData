@@ -208,7 +208,7 @@ class Structure2Smiles(BaseTool):
     )
 
     def __init__(self):
-        super(CX_preprocess, self).__init__()
+        super(Structure2Smiles, self).__init__()
 
     def _run(self, path_file: str) -> str:
        
