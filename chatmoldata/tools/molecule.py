@@ -105,7 +105,7 @@ class CMD_prediction(BaseTool):
     def __init__(
         self,
     ):
-        super(CX_prediction, self).__init__()
+        super(CMD_prediction, self).__init__()
 
     def _run(self, path_file: str) -> str:
         # print('now'+path_file)
