@@ -1,34 +1,21 @@
 # ChatMolData
 
-Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Molecular Data Processing](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" by Yi Yu and xx. We assumed that the ChatMolData  will bridge the gap between chemical experimenters and algorithm developers. 
+Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Molecular Data Processing](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" by Yi Yu and xx. We assumed that the ChatMolData will bridge the gap between chemical experimenters and algorithm developers. 
 
 <img src="example/TOC.png" width="100%" height="100%">
 
-## Installing
-The compression methods in this package is based heavily on the MolBERT from BenevolentAI. The link of MolBERT is shown below:
-
-https://github.com/BenevolentAI/MolBERT
-
-### Prerequisites
-```bash
-python 3.7
-numpy
-MolBERT 
-rdkit 2019.03.1.0
-scikit-learn 0.21.3
-pytorch-lightning 0.8.4
-transformers 3.5.1
-textbrewer 0.2.1
-pytorch 1.7.0
-```
 ### Install via Anaconda (recommended way)
+Create a new envioronment:
 ```bash
-git clone https://github.com/YiYuDL/DeLiCaTe.git
-cd DeLiCaTe
-conda create -y -q -n delicate -c rdkit rdkit=2019.03.1.0 python=3.7.3
-conda activate delicate
-pip install .
+cd chatmoldata
+conda env create -f environment.yml
+conda activate chatmoldata
 ```
+Install the chatmoldata package
+```bash
+python setup.py install
+```
+
 ## Getting start
 The compression methods here include cross-layer parameter sharing (CLPS), knowledge distillation (KD) and the integration of two mentioned methods. The obtained transformer models are PSMolBERT, KDMolBERT and DeLiCaTe, respectively. The model compression will be shown in turn. Then, the fine-tuning for QSAR and comparison of inference speed are shown. Finally, the inference speed among different transfomer models are compared.
 ### load pretrained model
