@@ -2,9 +2,7 @@ from langchain.tools import BaseTool
 from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem, rdMolDescriptors
 from chatmoldata.utils.utils import *
-# from DECIMER import predict_SMILES
 from pydantic import ValidationError
-# from langchain.chains import create_sql_query_chain
 from langchain_core.prompts import FewShotPromptTemplate, PromptTemplate
 
 
