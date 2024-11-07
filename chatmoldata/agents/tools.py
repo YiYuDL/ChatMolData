@@ -24,9 +24,9 @@ def make_tools(llm: BaseLanguageModel, api_keys: dict = {}, verbose=True):
         Subsearch_pre(),
         Text2SQL2CSV(),
         CSV2Structre_image(),
-        CX_Preprocess(),
-        CX_prediction(),
-        CX_distribution(),
+        CMD_Preprocess(),
+        CMD_prediction(),
+        CMD_distribution(),
     ]
    
 
