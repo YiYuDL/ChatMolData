@@ -4,7 +4,7 @@ Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Mole
 
 <img src="example/TOC.png" width="100%" height="100%">
 
-## Install via Anaconda (recommended way)
+## Install via Anaconda
 Create a new envioronment:
 ```bash
 cd chatmoldata
@@ -27,5 +27,5 @@ In a Python:
 from chatmoldata.agents import ChatMolData
 
 CMD = ChatMolData(model="gpt-4", temp=0.1)
-CMD.run('''Retrieve compound smiles and IC50 for the target "CDK2", the IC50 < 1000nM.''') 
+CMD.run('''Retrieve compound SMILES and IC50 for the target "CDK2", the IC50 < 1000nM.''') 
 ```
