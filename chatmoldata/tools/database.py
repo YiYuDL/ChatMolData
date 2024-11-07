@@ -7,7 +7,6 @@ Created on Sun Jul  7 10:34:25 2024
 """
 
 from langchain_community.utilities import SQLDatabase
-#from sqlalchemy import create_engine
 from langchain.tools import BaseTool
 import mysql.connector
 from langchain.chains import create_sql_query_chain
