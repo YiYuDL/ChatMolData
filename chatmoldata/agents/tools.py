@@ -22,7 +22,7 @@ def make_tools(llm: BaseLanguageModel, api_keys: dict = {}, verbose=True):
         Target2ID(),
         Sub_search(),
         Subsearch_pre(),
-        SQLtext2CSV(),
+        Text2SQL2CSV(),
         CSV2Structre_image(),
         CX_Preprocess(),
         CX_prediction(),
