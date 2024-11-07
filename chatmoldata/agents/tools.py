@@ -5,7 +5,7 @@ from langchain.base_language import BaseLanguageModel
 
 from chatmoldata.tools.molecule import *
 from chatmoldata.tools.rdkit import SMILES2Weight,MolSimilarity
-from chatmoldata.tools.database import Target2ID, SQLtext2CSV
+from chatmoldata.tools.database import Target2ID, Text2SQL2CSV
 from chatmoldata.tools.dataframe import CSV2Structre_image
 from chatmoldata.tools.search import *
 
