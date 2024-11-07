@@ -4,47 +4,6 @@ You are an expert chemist and your task is to respond to the question or
 solve the problem to the best of your ability using the provided tools.
 You are able to process image files by using "Image2SMILES" tool.
 
-"""
-# When meeting the task about plotting histgram of distribution, use cx_distribution tool.
-
-# FORMAT_INSTRUCTIONS = """
-# You can only respond with a single complete
-# "Thought, Action, Action Input" format
-# OR a single "Final Answer" format.
-
-# Complete format:
-
-# Thought: (reflect on your progress and decide what to do next)
-# Action: (the action name, should be one of [{tool_names}])
-# Action Input: (the input string to the action)
-
-# OR
-
-# Thouhght: I now know the final answer.
-# Final Answer: (the final answer to the original input question)
-# """
-
-# FORMAT_INSTRUCTIONS = """
-# You can only respond with a single complete
-# "Thought1, Action1, Action Input1, ... Thought2, Action2, Action Input2, ..." format (please add number after Thought, Action, Action Input, like Thought1, Action1, Action Input1, starting from 1, add one each time after one complete)
-# OR a single "Final Answer" format.
-
-# Complete format:
-
-# Thought1: (reflect on your progress and decide what to do next)
-# Action1: (the action name, should be one of [{tool_names}])
-# Action Input1: (the input string to the action)
-# Thought2: (reflect on your progress and decide what to do next)
-# Action2: (the action name, should be one of [{tool_names}])
-# Action Input2: (the input string to the action)
-
-# OR
-
-# Thought: (The task is completed)
-# Final Answer: (the final answer to the original input question)
-# """
-
-
 
 FORMAT_INSTRUCTIONS = """
 You can only respond with a single complete
