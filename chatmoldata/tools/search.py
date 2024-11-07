@@ -11,7 +11,6 @@ from langchain.tools import BaseTool
 from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem, rdMolDescriptors
 from chatmoldata.utils.utils import *
-# from DECIMER import predict_SMILES
 from rdkit.Chem.SaltRemover import SaltRemover
 from pydantic import ValidationError
 import pandas as pd
