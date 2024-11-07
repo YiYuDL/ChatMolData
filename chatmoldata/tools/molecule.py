@@ -161,7 +161,7 @@ class CMD_distribution(BaseTool):
     def __init__(
         self,
     ):
-        super(CX_distribution, self).__init__()
+        super(CMD_distribution, self).__init__()
 
     def _run(self, path_file: str) -> str:
         
