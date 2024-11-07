@@ -200,14 +200,14 @@ class Target2ID(BaseTool):
         """Use the tool asynchronously."""
         raise NotImplementedError()
         
-class SQLtext2CSV(BaseTool):
-    name = "SQLtext2CSV"
+class Text2SQL2CSV(BaseTool):
+    name = "Text2SQL2CSV"
     description = (
-        "Input should be the strings of Observation, returns the CSV file after excecuting SQL task."
+        "Input should be the strings of Observation, returns the CSV file after executing SQL task."
     )
 
     def __init__(self):
-        super(SQLtext2CSV, self).__init__()
+        super(Text2SQL2CSV, self).__init__()
 
     def _run(self, texts: str) -> str:
         # print(path_file)
