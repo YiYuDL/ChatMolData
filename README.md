@@ -4,7 +4,7 @@ Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Mole
 
 <img src="example/TOC.png" width="100%" height="100%">
 
-### Install via Anaconda (recommended way)
+## Install via Anaconda (recommended way)
 Create a new envioronment:
 ```bash
 cd chatmoldata
