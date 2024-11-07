@@ -29,5 +29,4 @@ def make_tools(llm: BaseLanguageModel, api_keys: dict = {}, verbose=True):
         CMD_distribution(),
     ]
    
-
     return all_tools
