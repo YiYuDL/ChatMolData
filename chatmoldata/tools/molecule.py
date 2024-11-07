@@ -52,14 +52,14 @@ def read_file(file):
     else:
         return 'Error, please check if the file is csv(xlsx) or include smiles strings'
 
-class CX_Preprocess(BaseTool):
-    name = "cx_preprocess"
+class CMD_Preprocess(BaseTool):
+    name = "cmd_preprocess"
     description = (
         "Input csv or xlsx file within molecular SMILES data, returns preprocessed csv file."
     )
 
     def __init__(self):
-        super(CX_Preprocess, self).__init__()
+        super(CMD_Preprocess, self).__init__()
 
     def _run(self, path_file: str) -> str:
         try:
