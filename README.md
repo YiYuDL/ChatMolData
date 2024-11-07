@@ -1,6 +1,6 @@
 # ChatMolData
 
-Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Molecular Data Processing](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" by Yi Yu and xx. We assumed that the ChatMolData will bridge the gap between chemical experimenters and algorithm developers. 
+Implementation of the Paper "[ChatMolData: a Multimodal Agent for Automatic Molecular Data Processing](https://iopscience.iop.org/article/10.1088/2632-2153/ac99ba/meta)" (upload arxiv) by Yi Yu and xx. We assumed that the ChatMolData will bridge the gap between chemical experimenters and algorithm developers. 
 
 <img src="example/TOC.png" width="100%" height="100%">
 
