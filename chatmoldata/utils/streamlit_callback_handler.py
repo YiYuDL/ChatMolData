@@ -14,10 +14,7 @@ from langchain_core.agents import AgentAction, AgentFinish
 from langchain_core.outputs import LLMResult
 from streamlit.delta_generator import DeltaGenerator
 
-from chatmoldata.utils.utils import is_smiles
-
-from .utils import cdk
-
+from chatmoldata.utils.utils import is_smiles,cdk
 
 class LLMThoughtChem(LLMThought):
     def __init__(
