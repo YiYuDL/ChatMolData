@@ -74,7 +74,7 @@ Your final answer should contain all information necessary to answer the questio
 Attention: Importance from front to back, and plan your steps accordingly:
 1. when asking for retrieving tasks, "Target2ID" tool should be used and the action input should be the original texts of the question when there is 
 no CHEMBL IDs in the content of target.
-2. When there is the CHEMBL ID, "SQLtext2CSV" should be used to get the csv file instead of "Target2ID".
+2. When there is the CHEMBL ID, "Text2SQL2CSV" should be used to get the csv file instead of "Target2ID".
 3. When Observation is a CSV file and structural images need to be created, the input is the csv file and use the "CSV2Structre_image" tool, return an xlsx file, it should be the last step and stop the task.
 4. Before using "CX_prediction" tool, you should use the "CX_preprocess" tool first, then use the file in Observation for prediction task.
 5. For substructure search task, you need to use "Subsearch_pre" frist then use "Sub_search".
