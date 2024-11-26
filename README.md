@@ -27,5 +27,5 @@ In a Python:
 from chatmoldata.agents import ChatMolData
 
 CMD = ChatMolData(model="gpt-4", temp=0.1)
-CMD.run('''Retrieve compound SMILES and IC50 for the target "CDK2", the IC50 < 1000nM.''') 
+CMD.run('''For ./data/mol smiles.csv, calculate the multiple proper-tiesofthe molecules and the plot histogram showing distribution ofdifferent properties, properties inelude MW, ALogP, tPSA and QED.''') 
 ```
