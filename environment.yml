@@ -251,7 +251,6 @@ dependencies:
       - blinker==1.7.0
       - cachetools==5.3.3
       - chatmoldata==0.3.1
-      - chemcrow==0.3.20
       - coloredlogs==15.0.1
       - contourpy==1.2.0
       - cupy-cuda12x==12.1.0
