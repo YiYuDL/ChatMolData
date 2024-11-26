@@ -33,3 +33,4 @@ The output is:
 ```bash
 Final Answer: The multiple properties of the molecules in the provided CSV file have been calculated and histograms showing the distributions of these properties have been plotted. The final CSV file with the calculated properties is 'mol smiles cleanedpred.csv`
 ```
+<img src="example/output3.png" width="40%" height="40%">
