@@ -27,7 +27,7 @@ In a Python:
 from chatmoldata.agents import ChatMolData
 
 CMD = ChatMolData(model="gpt-4", temp=0.1)
-CMD.run('''For ./data/mol smiles.csv, calculate the multiple proper-tiesofthe molecules and the plot histogram showing distribution ofdifferent properties, properties inelude MW, ALogP, tPSA and QED.''') 
+CMD.run('''For ./data/mol_smiles.csv, calculate the multiple proper-tiesofthe molecules and the plot histogram showing distribution ofdifferent properties, properties inelude MW, ALogP, tPSA and QED.''') 
 ```
 The output is:
 ```bash
